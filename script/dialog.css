@@ -1,0 +1,100 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+#accounts{
+	margin: 10px;
+	width:100%;
+	float:left;
+}
+
+#navigation{
+    display: none;
+    border-bottom: 1px solid #919191;
+    padding: 10px;
+}
+
+#images{
+	float:left;
+	width:100%;
+}
+
+.user_link{
+	padding: 5px 5px 5px 35px;
+	margin: 5px;
+	border: 1px medium grey;
+	background:url("./images/smugmug_16.png") no-repeat scroll;
+	background-position: 10px 50%;
+}
+
+.album_item{
+	width:50%;
+	float:left;
+}
+
+.album_item:hover{
+	background-color:#EAF2FA;
+}
+
+.album_item .container{
+	float:left;
+	padding: 5px;
+	margin: 5px;
+	border: 1px medium grey;
+}
+
+.album_item .thumb{	
+}
+.album_item .description{
+}
+
+.album_item .description .name, .album_item .description .created{
+	display:block;
+}
+
+.album_item .description .name span{
+	color:#FD005A;
+}
+
+.album_item .description .created span{
+	font-style: italic;
+}
+
+
+.image_item{
+	float:left;
+	margin:5px;
+}
+
+.image_item a .insert_image{
+	border:1px solid;
+    border-color: silver;
+	padding:3px;
+}
+.image_item .image_name{
+	display:block;
+	font-size:11px;
+}
+.loader{
+	background:url("./images/ajax-loader.gif") no-repeat scroll transparent;
+	background-position: 50% 50%;
+	padding: 20px;
+	margin:auto;
+	display:block;
+}
+
+.admin_settings_icon{
+	background:url("./images/smugmug_32.png") no-repeat scroll transparent;
+}
+
+.form_element{
+	width:250px;
+}
+.form_element_textarea{
+	width:450px;
+	height: 100px;
+}
+.description{
+    display: block;
+}
