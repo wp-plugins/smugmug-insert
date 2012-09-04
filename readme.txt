@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== SmugMug Insert ===
 Contributors: mpriess
 Donate link: -
 Tags: smugmug, images, image, gallery
