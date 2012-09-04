@@ -2,26 +2,30 @@
 Contributors: mpriess
 Donate link: -
 Tags: smugmug, images, image, gallery
+Requires at least: a smugmug account
+License: GPLv2
 Tested up to: 3.4
 Stable tag: trunk
 
-Browse photos from SmugMug and add them to post/pages.
+Browse photos from multiple SmugMug-Users and add them to posts. Integrated smoothly within the text-editor. Configurable thumb and fullscreen-sizes.
 
 == Description ==
 
-The plugin insert a icon on insert/edit page. Click on the icon you can see the smugmug users, what you specified on the settings page. Entering in the user you can browse an album and insert images individually into post.
+The plugin insert a icon on insert/edit page. With a click on the icon you can see the smugmug users, that you've specified on the settings page. By browsing threw the public albums of the user you can easily add pictures within your posts and pages. The size of the thumbs and lightbox images can be configured.
 
-The plugin insert just the url of image, and the image phisicaly remain in smugmug servers. 
+The plugin insert just the url of image, the image itself remains phisicaly on the SmugMug servers. So when you change the album-name the url won't match anymore! 
 
 == Installation ==
 
 1. Upload `smugmug-insert` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Add users on settings page
-1. Set up other settings
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Add users on settings page
+4. Set up other settings
 
 == Frequently Asked Questions ==
 
+= When i click on the SmugMug-Icon above the text-editor only a blank popup opens. =
+You've forgot the set a valid username in the SmugIns Setting-Page!
 
 == Screenshots ==
 
@@ -32,11 +36,8 @@ The plugin insert just the url of image, and the image phisicaly remain in smugm
 
 == Changelog ==
 
-= q.0 =
-* First release
-2012-08-26
+= 1.0 =
+* First release 2012-09-03
 
 == Upgrade Notice ==
-
-= 0.1 =
-This is first public release. 
+* First release
